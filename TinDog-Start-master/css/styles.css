@@ -1,0 +1,197 @@
+body {
+    font-family: "Montserrat";
+    text-align: center;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    font-family: "Montserrat-bold";
+}
+
+p {
+    color: #8f8f8f;
+}
+
+.container-fluid {
+    padding: 7% 15%;
+}
+
+
+/* heading-*/
+
+.big_heading {
+    font-family: "Montserrat-Black";
+    font-size: 3.5rem;
+    line-height: 1.5;
+    text-align: left;
+}
+
+.section-heading {
+    font-size: 3rem;
+    line-height: 1.5rem;
+}
+
+.colored-section {
+    background-color: #ff4c68;
+    color: #fff;
+}
+
+
+/* tittle-section */
+
+
+/* #title {
+    background-color: #ff4c68;
+    color: #fff;
+} */
+
+#title .container-fluid {
+    padding: 3% 15%;
+}
+
+.title-image {
+    width: 60%;
+    transform: rotate(25deg);
+    position: absolute;
+    right: 30%;
+}
+
+
+/* navigation bar */
+
+.navbar {
+    padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+    font-family: Ubuntu;
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.nav-item {
+    padding: 0 15px;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+    font-family: "Montserrat-light";
+}
+
+
+/* download button */
+
+.images {
+    padding: 2% 10% 2% 10%;
+}
+
+.download {
+    margin: 5% 3% 5% 0;
+}
+
+.ar {
+    z-index: 1;
+}
+
+
+/* features */
+
+#features {
+    background-color: #fff;
+    position: relative;
+    z-index: 1;
+}
+
+.feature-box {
+    padding: 4.5%;
+}
+
+.features-title {
+    font-size: 1.5rem;
+}
+
+.icon {
+    color: #ef8172;
+    margin-bottom: 1rem;
+}
+
+.icon:hover {
+    color: #ff4c68;
+}
+
+
+/* testimonials */
+
+#testimonials {
+    background-color: #ef8172;
+}
+
+.testimonial-text {
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.testimonial-image {
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+
+/* press */
+
+#press {
+    background-color: #ef8172;
+    padding-bottom: 50px;
+}
+
+.press-logo {
+    width: 11%;
+    margin: 20px 20px 50px;
+}
+
+
+/* pricing */
+
+#pricing {
+    padding: 100px;
+}
+
+.pricing-col {
+    padding: 3% 2%;
+}
+
+@media(max-width:1028px) {
+    .pricing-head {
+        padding: 10% 0 10% 0;
+    }
+    .pricing-col {
+        padding: 3% 1%;
+    }
+}
+
+
+/* call to action */
+
+.symbol {
+    margin: 5% 1% 2% 1%;
+}
+
+
+/* footer section */
+
+.social-icon {
+    margin: 20px 10px;
+}
+
+@media(max-width:1028px) {
+    .title-image {
+        position: static;
+        transform: rotate(0);
+    }
+}
+
+
+/* <i class="fa-brands fa-android"></i><i class="fa-brands fa-apple"></i>
